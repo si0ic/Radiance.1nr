@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "paymentGateway": "razorpay",
+    "gatewayStatus": "pending_integration"
+  },
+  "siteContent": {
+    "brandName": "RADIANCE.1N",
+    "heroTitleLine1": "Inject Intelligence",
+    "heroTitleLine2": "Into Your AI",
+    "heroDescription": "Core-powered runtime enhancements measured in CandyBytes. Built for builders pushing AI beyond default limits.",
+    "radiancePromise": "The injections are used to make AI work better. They will give your AI true personality and enhance it profoundly, elevating image generation, content writing, and much more. These injections make the free versions of AI fully compatible and even better than the premium ones."
+  },
+  "navLinks": [
+    { "label": "Runtime Market", "url": "#market" },
+    { "label": "The Lab", "url": "#lab" }
+  ],
+  "injects": [
+    {
+      "id": "inj_001",
+      "title": "VisionForge Runtime Enhancer",
+      "cb": 248,
+      "price": 149,
+      "runtimeClass": "Precision Runtime",
+      "coreWeight": "Heavy",
+      "build": "v4.2.1",
+      "deployments": 1204,
+      "tags": ["Popular Injects", "Precision Injects", "Elite Runtime"],
+      "description": "Enhances cinematic scene consistency, optimizes runtime precision, and improves AI behavioral stability.",
+      "density": 84,
+      "badge": "ELITE RUNTIME"
+    },
+    {
+      "id": "inj_002",
+      "title": "Neural Overclock Module",
+      "cb": 580,
+      "price": 499,
+      "runtimeClass": "Performance Runtime",
+      "coreWeight": "Omega-Tier",
+      "build": "v1.0.0-exp",
+      "deployments": 42,
+      "tags": ["Runtime Monsters", "Experimental", "High CandyBytes", "Black Market"],
+      "description": "Bypasses default latency limits. Highly dangerous experimental logic modification for instant token generation.",
+      "density": 98,
+      "badge": "EXPERIMENTAL"
+    },
+    {
+      "id": "inj_003",
+      "title": "Cognitive Anchor Pack",
+      "cb": 45,
+      "price": 29,
+      "runtimeClass": "Memory Runtime",
+      "coreWeight": "Light",
+      "build": "v8.1.4",
+      "deployments": 8403,
+      "tags": ["Low CandyBytes", "Popular Injects"],
+      "description": "Lightweight core injection to prevent context dropping during extended inference windows.",
+      "density": 32,
+      "badge": ""
+    },
+    {
+      "id": "inj_004",
+      "title": "Cinematic Depth Injector",
+      "cb": 310,
+      "price": 210,
+      "runtimeClass": "Visual Runtime",
+      "coreWeight": "Titan",
+      "build": "v2.2.0",
+      "deployments": 512,
+      "tags": ["Fresh Drops", "Neural Boosts"],
+      "description": "Forces diffusion models to respect z-depth mapping accurately, creating authentic cinematic depth-of-field.",
+      "density": 89,
+      "badge": "HIGH DENSITY"
+    }
+  ],
+  "dynamicSections": [
+    {
+      "id": "custom_announcement",
+      "type": "html",
+      "title": "Incoming: Razorpay Integration",
+      "content": "<p class='text-white/60 mb-4'>We are currently migrating our payment infrastructure to <strong>Razorpay</strong> to support seamless global deployment acquisitions.</p><div class='inline-block px-4 py-2 bg-white/10 border border-white/20 rounded-md text-[10px] uppercase tracking-widest text-[var(--gold-primary)]'>Integration Status: Pending</div>"
+    },
+    {
+      "id": "custom_image_promo",
+      "type": "image",
+      "title": "Underground Network Expansion",
+      "content": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+    }
+  ]
+}
